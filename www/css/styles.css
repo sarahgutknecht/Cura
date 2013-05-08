@@ -1,0 +1,734 @@
+/* MOBILE STYLES: PORTRAIT */
+body{
+	background-image:url(../images/portrait.jpg);
+	background-size:100%;
+}
+a{
+	text-decoration:none;
+	font-family: 'quicksand', Arial, sans-serif;
+	font-size:18px;
+	letter-spacing:1px;
+	color:#FFF;
+	font-weight:100;
+}
+
+h1{
+		font-size:22px;
+		color:#FFF;
+		font-family: 'quicksand', Arial, sans-serif;
+		height:100%;
+		line-height:50px;
+		margin-left:4%;
+	}
+h2{
+		font-size:22px;
+		color:#FFF;
+		font-family: 'quicksand', Arial, sans-serif;
+		height:100%;
+		margin-left:4%;
+		margin-bottom:10px;
+	}
+h3{
+	font-size:13px;
+	color:#3d7773;
+	font-family: 'quicksand', Arial, sans-serif;
+	text-align:center;
+}
+p{
+		font-size:13px;
+		line-height:15px;
+		width:94%;
+		margin-left:4%;
+		margin-right:2%;
+		margin-bottom:20px;
+		color:#FFF;
+		font-family: 'quicksand', Arial, sans-serif;
+		font-weight:100;
+	}	
+.clear{
+	clear:both;
+}
+@media only screen and (max-width: 479px){
+body{
+	background-image:url(../images/portrait1.jpg);
+}
+header{
+		width:100%;
+		height:52px;
+		background-image:url(../images/navBar.png);
+		-moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.3);
+		position:fixed;
+		bottom: 0;
+		z-index:1;
+		
+	}
+	
+header a{	
+		width:33.33%;
+		height:100%;
+		float:left;
+		font-size:16px;
+		letter-spacing:1px;
+		text-align:center;
+		line-height:52px; /* To align to the baseline of the h2 span. */
+		color:#ffffff;
+	}
+header a img{	
+		
+		text-align:center;
+		line-height:52px; /* To align to the baseline of the h2 span. */
+		margin-top:-22px;
+		margin-left:-7px;
+	}
+
+	
+	#content{
+		float:left;
+		width:100%;
+		margin-bottom:68px;
+		/*background-image:url(../res/screen/screen-iphone-portrait.png);*/
+	}
+	#buttons{
+		margin-top:30px;
+	}
+/*//////////////Home Page///////////////////*/	
+#curaWord{
+	width:104px;
+	float:left;
+	margin-top:10px;
+	margin-left:4%;
+}
+#subtitle{
+	width:160px;
+	float:left;
+	margin-left:4%;
+}
+#subtitle h3{
+	float:right;
+	margin-top:-8px;
+	margin-bottom:10px;
+}
+#homePage{
+		height:63px;
+		width:292px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:10px;
+		text-align:center;
+		line-height:58px;
+		display:block;
+		background-image:url(../images/button.png);
+	
+}
+#check{
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-right:auto;
+	margin-left:auto;
+}	
+
+/*//////////////oil images PNG///////////////////*/		
+	
+#lavender{
+		background-image:url(../images/lavender1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+#ginger{
+		background-image:url(../images/gingerimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+#peppermint{
+		background-image:url(../images/peppermintimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+#sage{
+		background-image:url(../images/sageimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+#vanilla{
+		background-image:url(../images/vanillaimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+#chamomile{
+		background-image:url(../images/chamomileimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+	
+#rosemary{
+		background-image:url(../images/rosemaryimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+#lemon{
+		background-image:url(../images/lemonimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+	
+/*//////////////oil buttons PNG///////////////////*/	
+#lavenderbut{
+		background-image:url(../images/lavButton.png);
+		height:59px;
+		width:292px;
+}
+#chamomilebut{
+		background-image:url(../images/chamomile.png);
+		height:59px;
+		width:292px;	
+}
+#lemonbut{
+		background-image:url(../images/lemon.png);
+		height:59px;
+		width:292px;	
+}
+#gingerbut{
+		background-image:url(../images/ginger.png);
+		height:59px;
+		width:292px;
+}
+#peppermintbut{
+		background-image:url(../images/peppermint.png);
+		height:59px;
+		width:292px;
+}
+#rosemarybut{
+		background-image:url(../images/rosemary.png);
+		height:59px;
+		width:292px;
+}
+#sagebut{
+		background-image:url(../images/sage.png);
+		height:59px;
+		width:292px;
+}
+#vanillabut{
+		background-image:url(../images/vanilla.png);
+		height:59px;
+		width:292px;
+}
+#blend1{
+	background-image:url(../images/blend.png);
+		height:59px;
+		width:292px;
+}
+#blend3button{
+	background-image:url(../images/blend3button.png);
+	height:59px;
+	width:292px;
+}
+
+/*////////////////////////////////////*/	
+.imgOil{
+		
+		width:100%;
+		padding-top:18.5%;
+		margin-bottom:20px;
+		-moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.2);
+		
+	}
+.imgBlend{
+	max-width:100%;
+	padding-top:25%;
+	margin-bottom:20px;
+	background-image:url(../images/patient2.png);
+	background-size:100%;
+
+}
+	
+.boxes{
+		height:59px;
+		max-width:94%;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:-12px;
+		text-align:center;
+		line-height:50px;
+		display:block;
+		
+		
+	}
+
+}
+
+/* MOBILE STYLES: LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+body{
+	background-image:url(../images/portrait1.jpg);
+}
+header{
+		width:100%;
+		height:52px;
+		background-image:url(../images/navBar.png);
+		-moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.3);
+		position:fixed;
+		bottom: 0;
+		z-index:1;
+		
+	}
+	
+header a{	
+		width:33.33%;
+		height:100%;
+		float:left;
+		font-size:16px;
+		letter-spacing:1px;
+		text-align:center;
+		line-height:52px; /* To align to the baseline of the h2 span. */
+		color:#ffffff;
+	}
+header a img{	
+		
+		text-align:center;
+		line-height:52px; /* To align to the baseline of the h2 span. */
+		margin-top:-22px;
+		margin-left:-7px;
+	}
+
+	
+	#content{
+		float:left;
+		width:100%;
+		margin-bottom:68px;
+		/*background-image:url(../res/screen/screen-iphone-portrait.png);*/
+	}
+	#buttons{
+		margin-top:30px;
+	}
+/*//////////////Home Page///////////////////*/	
+#curaWord{
+	width:104px;
+	float:left;
+	margin-top:10px;
+	margin-left:4%;
+}
+#subtitle{
+	width:160px;
+	float:left;
+	margin-left:4%;
+}
+#subtitle h3{
+	float:right;
+	margin-top:-8px;
+	margin-bottom:10px;
+}
+#homePage{
+		height:63px;
+		width:292px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:10px;
+		text-align:center;
+		line-height:58px;
+		display:block;
+		background-image:url(../images/button.png);
+	
+}
+#check{
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-right:auto;
+	margin-left:auto;
+}	
+
+/*//////////////oil images PNG///////////////////*/		
+	
+#lavender{
+		background-image:url(../images/lavender1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+#ginger{
+		background-image:url(../images/gingerimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+#peppermint{
+		background-image:url(../images/peppermintimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+#sage{
+		background-image:url(../images/sageimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+#vanilla{
+		background-image:url(../images/vanillaimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+#chamomile{
+		background-image:url(../images/chamomileimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}
+	
+#rosemary{
+		background-image:url(../images/rosemaryimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+#lemon{
+		background-image:url(../images/lemonimg1.png);
+		background-size:100%;
+		padding-top:25%;
+}	
+	
+/*//////////////oil buttons PNG///////////////////*/	
+#lavenderbut{
+		background-image:url(../images/lavButton.png);
+}
+#chamomilebut{
+		background-image:url(../images/chamomile.png);	
+}
+#lemonbut{
+		background-image:url(../images/lemon.png);	
+}
+#gingerbut{
+		background-image:url(../images/ginger.png);
+}
+#peppermintbut{
+		background-image:url(../images/peppermint.png);
+		height:59px;
+		width:292px;
+}
+#rosemarybut{
+		background-image:url(../images/rosemary.png);
+		height:59px;
+		width:292px;
+}
+#sagebut{
+		background-image:url(../images/sage.png);
+		height:59px;
+		width:292px;
+}
+#vanillabut{
+		background-image:url(../images/vanilla.png);
+		height:59px;
+		width:292px;
+}
+#blend1{
+	background-image:url(../images/blend.png);
+		height:59px;
+		width:292px;
+}
+#blend3button{
+	background-image:url(../images/blend3button.png);
+	height:59px;
+	width:292px;
+}
+
+/*////////////////////////////////////*/	
+.imgOil{
+		
+		width:100%;
+		padding-top:18.5%;
+		margin-bottom:20px;
+		-moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.2);
+		
+	}
+.imgBlend{
+	max-width:100%;
+	padding-top:25%;
+	margin-bottom:20px;
+	background-image:url(../images/patient2.png);
+	background-size:100%;
+
+}
+	
+.boxes{
+		height:59px;
+		width:292px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:-12px;
+		text-align:center;
+		line-height:50px;
+		display:block;
+		
+		
+	}
+
+}
+
+
+/* TABLET STYLES: PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	header{
+		width:100%;
+		height:50px;
+		background-color:#000000;
+		-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.5);
+		position:fixed;
+	}
+	
+	h1{
+		font-size:22px;
+		letter-spacing:-.5px;
+		color:#ffffff;
+		height:100%;
+		line-height:50px;
+		margin-left:1.3%;
+	}
+	
+	#content{
+		float:left;
+		margin-top:50px;
+		width:100%;
+	}
+	
+	p{
+		font-size:16px;
+		line-height:24px;
+		width:97.4%;
+		margin-left:1.3%;
+		margin-bottom:20px;
+		color:#000000;
+		font-weight:50;
+	}
+}
+
+/* TABLET STYLES: LANDSCAPE */
+@media only screen and (min-width: 960px) and (max-width: 1024px){
+	header{
+		width:100%;
+		height:50px;
+		background-color:#000000;
+		-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.5);
+		position:fixed;
+	}
+	
+	h1{
+		font-size:22px;
+		letter-spacing:-.5px;
+		color:#ff0000;
+		height:100%;
+		line-height:50px;
+		margin-left:1.3%;
+	}
+	
+	#content{
+		float:left;
+		margin-top:50px;
+		width:100%;
+	}
+	
+	p{
+		font-size:16px;
+		line-height:24px;
+		width:97.4%;
+		margin-left:1.3%;
+		margin-bottom:20px;
+		color:#000000;
+	}
+}
+
+/* DESKTOP STYLES */
+@media only screen and (min-width: 1025px){
+	body{
+	background-image:url(../images/portrait.jpg);
+}
+header{
+		width:100%;
+		height:52px;
+		background-image:url(../images/navBar.png);
+		-moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		box-shadow: 0 0px 5px 5px rgba(0,0,0,0.3);
+		position:fixed;
+		bottom: 0;
+		z-index:1;
+		
+	}
+	
+header a{	
+		width:33.33%;
+		height:100%;
+		float:left;
+		font-size:16px;
+		letter-spacing:1px;
+		text-align:center;
+		line-height:52px; /* To align to the baseline of the h2 span. */
+		color:#ffffff;
+	}
+header a img{	
+		
+		text-align:center;
+		line-height:52px; /* To align to the baseline of the h2 span. */
+		margin-top:-22px;
+		margin-left:-7px;
+	}
+
+	
+	#content{
+		float:left;
+		width:100%;
+		margin-bottom:68px;
+		/*background-image:url(../res/screen/screen-iphone-portrait.png);*/
+	}
+	#buttons{
+		margin-top:30px;
+	}
+/*//////////////Home Page///////////////////*/	
+#curaWord{
+	width:104px;
+	float:left;
+	margin-top:10px;
+	margin-left:4%;
+}
+#subtitle{
+	width:160px;
+	float:left;
+	margin-left:4%;
+}
+#subtitle h3{
+	float:right;
+	margin-top:-8px;
+	margin-bottom:10px;
+}
+#homePage{
+		height:63px;
+		width:292px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:10px;
+		text-align:center;
+		line-height:58px;
+		display:block;
+		background-image:url(../images/button.png);
+	
+}
+#check{
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-right:auto;
+	margin-left:auto;
+}	
+
+/*//////////////oil images PNG///////////////////*/		
+	
+#lavender{
+		background-image:url(../images/lavender.png);
+		height:92px;
+		width:100%;
+}
+#ginger{
+		background-image:url(../images/gingerimg.png);
+		height:92px;
+		width:100%;
+}	
+#peppermint{
+		background-image:url(../images/peppermintimg.png);
+		height:92px;
+		width:100%;
+}
+#sage{
+		background-image:url(../images/sageimg.png);
+		height:92px;
+		width:100%;
+}
+#vanilla{
+		background-image:url(../images/vanillaimg.png);
+		height:92px;
+		width:100%;
+}	
+#chamomile{
+		background-image:url(../images/chamomileimg.png);
+		height:92px;
+		width:100%;
+}
+	
+#rosemary{
+		background-image:url(../images/rosemaryimg.png);
+		height:92px;
+		width:100%;
+}	
+	
+/*//////////////oil buttons PNG///////////////////*/	
+#lavenderbut{
+		background-image:url(../images/lavButton.png);
+}
+#chamomilebut{
+		background-image:url(../images/chamomile.png);	
+}
+#lemonbut{
+		background-image:url(../images/lemon.png);	
+}
+#gingerbut{
+		background-image:url(../images/ginger.png);
+}
+#peppermintbut{
+		background-image:url(../images/peppermint.png);
+		height:59px;
+		width:292px;
+}
+#rosemarybut{
+		background-image:url(../images/rosemary.png);
+		height:59px;
+		width:292px;
+}
+#sagebut{
+		background-image:url(../images/sage.png);
+		height:59px;
+		width:292px;
+}
+#vanillabut{
+		background-image:url(../images/vanilla.png);
+		height:59px;
+		width:292px;
+}
+#blend1{
+	background-image:url(../images/blend.png);
+		height:59px;
+		width:292px;
+}
+#blend3button{
+	background-image:url(../images/blend3button.png);
+}
+
+/*////////////////////////////////////*/	
+.imgOil{
+		width:100%;
+		height:70px;
+		margin-bottom:20px;
+
+		
+	}
+.imgBlend{
+	max-width:100%;
+	height:104px;
+	margin-bottom:20px;
+	background-image:url(../images/patient.png);
+
+}
+	
+.boxes{
+		height:59px;
+		width:292px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:-12px;
+		text-align:center;
+		line-height:50px;
+		display:block;
+		
+	}
+}
